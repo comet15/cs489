@@ -1,4 +1,47 @@
+$saddle-brown: #4A340F;
+$dark-olive: #351F11;
+$dim-gray: #544D3F;
+$light-slate-gray: #A8B0B4;
+$dark-slate-gray: #18181A;
+
 body {
   background-image: url("https://cdn.pixabay.com/photo/2018/11/15/09/15/documents-3816835_1280.jpg");
   background-size: cover;
+   * {
+     font-family: 'Sulphur Point', sans-serif;
+   }
+}
+
+.list-body {
+  background-color: $light-slate-gray;
+  width: 80%;
+  padding-right: 40px;
+  margin: 100px auto 100px auto;
+  box-shadow: 0 0 15px 15px $light-slate-gray;
+
+  .mdl-card__title {
+    background-color: $saddle-brown;
+
+    .mdl-card__title-text {
+      color: white;
+    }
+  }
+
+  .list-header {
+    padding-top: 24px;
+  }
+
+  li {
+    border-bottom: 1px dashed $saddle-brown;
+
+    .mdl-cell--8-col {
+      color: $dark-slate-gray;
+      line-height: 36px;
+    }
+    .mdl-cell--4-col button {
+      color: $dark-olive;
+    }
+  }
+
+
 }
