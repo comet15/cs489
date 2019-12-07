@@ -40,6 +40,15 @@ body {
     }
     .mdl-cell--4-col button {
       color: $dark-olive;
+
+      button.close {
+        float: right;
+
+      }
+    }
+
+    .save-link {
+      display: none;
     }
   }
 
