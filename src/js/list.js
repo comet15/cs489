@@ -4,7 +4,7 @@ $(document).ready(function () {
     });
 
     $("button.copy").click(function () {
-        $(this).parent().attr("data-link").select();
+        $(this).parent().children(".save-link:nth-child(1)").select();
         document.execCommand("copy");
         alert("Copy completed.");
     });
