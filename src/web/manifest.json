@@ -18,5 +18,6 @@
         "http://*/*",
         "tabs",
         "storage"
-    ]
+    ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js; object-src 'self'"
 }
