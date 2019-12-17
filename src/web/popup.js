@@ -15,7 +15,7 @@ button1.onclick = function(element) {
 
 var button2 = document.getElementById('button2');
 button2.onclick = function(element) {
-	var newURL = 'file:///C:/Users/KunTae%20Park/Desktop/ce/cs489/src/web/list.html';
+	var newURL = 'list.html';
 	chrome.tabs.create({'url': newURL});
 }
 
